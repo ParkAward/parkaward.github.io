@@ -1,4 +1,4 @@
 ---
 sidebar_position: 1
-title: Skill
+title: 스킬
 ---
