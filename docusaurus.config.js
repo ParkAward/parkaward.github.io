@@ -7,16 +7,16 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Park's Log",
-  tagline: "☕ 커피를 마시게 하고싶은 사이트",
+  tagline: "☕ 커피 한잔의 여유~",
   url: "https://parkaward.github.io",
   baseUrl: "/",
-  onBrokenLinks: "ignore",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "parkaward", // Usually your GitHub org/user name.
+  organizationName: "ParkAward", // Usually your GitHub org/user name.
   projectName: "parkaward.github.io", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: true,
@@ -84,7 +84,7 @@ const config = {
           },
 
           {
-            href: "https://github.com/parkawrd",
+            href: "https://github.com/ParkAward",
             label: "GitHub",
             position: "right",
           },
