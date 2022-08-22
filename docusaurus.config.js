@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Park's Log",
-  tagline: "☕ 커피 한잔의 여유~",
+  tagline: "☕ 커피 · 의존 · 생각 · 성공적",
   url: "https://parkaward.github.io",
   baseUrl: "/",
   onBrokenLinks: "warn",
