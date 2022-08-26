@@ -43,6 +43,13 @@ const config = {
             return `https://github.com/parkaward/parkaward.github.io/edit/master/docs${docPath}`;
           },
         },
+        blog: {
+          blogTitle: "Docusaurus blog!",
+          blogDescription: "A Docusaurus powered blog!",
+          postsPerPage: "ALL",
+          blogSidebarTitle: "All posts",
+          blogSidebarCount: "ALL",
+        },
 
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -82,7 +89,11 @@ const config = {
             label: "툴",
             position: "left",
           },
-
+          {
+            to: "blog",
+            label: "기록하기",
+            position: "left",
+          },
           {
             href: "https://github.com/ParkAward",
             label: "GitHub",
