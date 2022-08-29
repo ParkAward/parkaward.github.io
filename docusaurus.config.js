@@ -106,6 +106,10 @@ const config = {
         links: [],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
+      tableOfContents: {
+        minHeadingLevel: 2,
+        maxHeadingLevel: 4,
+      },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
