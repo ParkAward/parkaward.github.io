@@ -72,10 +72,14 @@ const Code = dynamic(() =>
   })
 )
 
-const Collection = dynamic(() =>
-  import('react-notion-x/build/third-party/collection').then(
-    (m) => m.Collection
-  )
+const Collection = dynamic(
+  () =>
+    import('react-notion-x/build/third-party/collection').then(
+      (m) => m.Collection
+    ),
+  {
+    ssr: false
+  }
 )
 const Equation = dynamic(() =>
   import('react-notion-x/build/third-party/equation').then((m) => m.Equation)
